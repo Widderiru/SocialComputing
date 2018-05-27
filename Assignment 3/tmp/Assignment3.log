@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.22)  27 MAY 2018 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.10.22)  27 MAY 2018 14:32
 entering extended mode
 **./Assignment3.tex
 (Assignment3.tex
@@ -735,15 +735,31 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 35.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+! Missing \endcsname inserted.
+<to be read again> 
+                   \ALG@currentblock@2 
+l.60 \ForAll
+            {a in all}{
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Extra \endcsname.
+\ALG@makebeginrepeat ...\ALG@thisblock \endcsname 
+                                                  \relax \def \ALG@thisblock...
+l.60 \ForAll
+            {a in all}{
+I'm ignoring this, since I wasn't doing a \csname.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 56--60
-[] \T1/cmr/m/n/10 all = https://api.instagram.com/v1/#SocialComputing/search?q=
-snowy&access_token=ACCESS-
+[] \T1/cmr/m/n/10 all = Get(https://api.instagram.com/v1/tags/search?q=SocialCo
+mputing&access_token=ACCESS-
  []
 
 ! Missing number, treated as zero.
 <to be read again> 
-                   \ALG@currentblock@2 
-l.62 \end{algorithmic}
+                   \ALG@currentblock@4 
+l.64 \end{algorithmic}
                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -751,15 +767,15 @@ look up `weird error' in the index to The TeXbook.)
 
 ! Missing = inserted for \ifnum.
 <to be read again> 
-                   \ALG@currentblock@2 
-l.62 \end{algorithmic}
+                   \ALG@currentblock@4 
+l.64 \end{algorithmic}
                       
 I was expecting to see `<', `=', or `>'. Didn't.
 
 ! Missing number, treated as zero.
 <to be read again> 
-                   \ALG@currentblock@2 
-l.62 \end{algorithmic}
+                   \ALG@currentblock@4 
+l.64 \end{algorithmic}
                       
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -770,13 +786,13 @@ look up `weird error' in the index to The TeXbook.)
 {C:/Users/Gebruiker/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 (Assignment3.aux) ) 
 Here is how much of TeX's memory you used:
- 16785 strings out of 493334
- 309887 string characters out of 3139239
+ 16795 strings out of 493334
+ 310037 string characters out of 3139239
  364395 words of memory out of 3000000
- 19965 multiletter control sequences out of 15000+200000
+ 19975 multiletter control sequences out of 15000+200000
  13663 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,65p,423b,358s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 55i,6n,65p,423b,367s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Gebruiker\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Gebruiker\AppData\Local\MiKTeX\2.9\
 fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Gebruiker\AppData\Loc
@@ -785,9 +801,9 @@ er\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:
 \Users\Gebruiker\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
 rm1200.pk> <C:\Users\Gebruiker\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappe
 n\ec\dpi600\ecrm1728.pk>
-Output written on Assignment3.pdf (1 page, 39505 bytes).
+Output written on Assignment3.pdf (1 page, 42379 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
+ 149 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
