@@ -48,19 +48,31 @@
 % last exercise.
 
 \begin{algorithm}
-\caption{Instagram-Bot}\label{Insta}
+\caption{InstaBot(login=``username",password="password")}\label{Insta}
 \begin{algorithmic}[1]
-\State{Bot} = InstaBot(login=``username",password="password",)
-\While{true}{
+\While{true}
 \State{time.sleep(10 * 60)}%10minuten warten
 \State{all
 =
-Get(https://api.instagram.com/v1/tags/search?q=SocialComputing\&access\_token=ACCESS-TOKEN})}
+Get(https://api.instagram.com/v1/tags/\{SocialComputing\}/media/recent?access\_token=ACCESS-TOKEN
+)}
 %https://api.instagram.com/v1/tags/search?q=snowy&access_token=ACCESS-TOKEN
-\ForAll{a in all}{
-\State{follow()}
-\If{234451301) == }
-}
+\For{a in all}
+\State{follow(a.user)}
+\If{234451301 == a.location}
+\State{save(a)}
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{follow(user)}\label{Insta}
+\begin{algorithmic}[1]
+\end{algorithmic}
+\end{algorithm}
+
+\begin{algorithm}
+\caption{save(post)}\label{Insta}
+\begin{algorithmic}[1]
 \end{algorithmic}
 \end{algorithm}
 
